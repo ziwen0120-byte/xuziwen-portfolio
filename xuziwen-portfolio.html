@@ -1,0 +1,841 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>徐梓文 | UI/UX Designer Portfolio</title>
+    <meta
+      name="description"
+      content="徐梓文 UI/UX 作品集，包含作品展示、个人信息、AI 能力、工作经验与交互动效。"
+    />
+    <link rel="stylesheet" href="assets/css/style.css?v=20260601-profile-bg">
+  </head>
+  <body>
+    <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+    <nav class="nav" aria-label="主导航">
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span class="brand-mark">ZW</span>
+        <span>XUZIWEN</span>
+      </a>
+      <div class="nav-links" aria-label="页面导航">
+        <a href="#work">作品</a>
+        <a href="#about">关于</a>
+        <a href="#ai">AI 能力</a>
+        <a href="#experience">经验</a>
+        <a href="#contact">联系</a>
+      </div>
+      <div class="nav-actions">
+        <button class="lang-toggle" type="button" id="langToggle" aria-label="Switch language">EN</button>
+        <a class="nav-cta" href="#contact">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M22 2 11 13"></path>
+            <path d="m22 2-7 20-4-9-9-4Z"></path>
+          </svg>
+          联系方式
+        </a>
+      </div>
+    </nav>
+
+    <main id="top" class="site-shell">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="hero-kicker reveal">
+              <span class="pill">UI/UX Designer</span>
+              <span class="pill">Web / App / HMI</span>
+              <span class="pill">AI Enhanced Workflow</span>
+            </div>
+            <h1 aria-label="徐梓文 UI UX Designer and Illustrator">
+              <span class="hero-title-line"><span>I'm a UX/UI</span></span>
+              <span class="hero-title-line"><span>Designer &</span></span>
+              <span class="hero-title-line"><span>Illustrator</span></span>
+            </h1>
+            <div class="hero-intro reveal">
+              <p class="lead">
+                设计专业出身，5年+ UI/UX 经验，擅长把复杂业务转译成清晰、可落地、可持续迭代的数字产品体验。
+              </p>
+              <p class="hero-speech">
+                我关注用户路径、业务指标和视觉表达之间的平衡，也会用 AI
+                提升调研、概念探索、视觉资产与交互原型的产出效率。
+              </p>
+            </div>
+            <div class="quick-stats reveal" aria-label="核心数据">
+              <div class="stat">
+                <strong data-count="5">0</strong>
+                <span>年以上 UI/UX 与跨行业产品设计经验</span>
+              </div>
+              <div class="stat">
+                <strong data-count="24">0</strong>
+                <span>个以上 Web、App、HMI 与运营设计项目</span>
+              </div>
+              <div class="stat">
+                <strong data-count="4">0</strong>
+                <span>类核心能力：策略、交互、视觉、AI 工作流</span>
+              </div>
+            </div>
+          </div>
+
+          <aside class="hero-panel reveal" id="tiltPanel" aria-label="个人摘要卡片">
+            <div class="hero-panel-top">
+              <div class="window-dots" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <span class="panel-label">Portfolio OS</span>
+            </div>
+            <div class="hero-art">
+              <img src="portfolio-assets/hero-uiux-illustration.png" alt="UI/UX 设计流程几何插图" />
+            </div>
+            <div class="avatar-card">
+              <div class="avatar" aria-hidden="true">
+                <img src="portfolio-assets/avatar-portrait-new.png?v=portrait-0527" alt="" />
+              </div>
+              <div class="avatar-meta">
+                <h2>徐梓文</h2>
+                <div class="avatar-tags" aria-label="个人标签">
+                  <span>UI/UX 设计师</span>
+                  <span>视觉表达者</span>
+                  <span>AI 协作实践者</span>
+                </div>
+              </div>
+            </div>
+            <div class="panel-stack">
+              <div class="mini-card">
+                <strong>Design focus</strong>
+                <p>从需求梳理、信息架构、交互流程到高保真视觉与规范沉淀。</p>
+              </div>
+              <div class="mini-card">
+                <strong>Business sense</strong>
+                <p>做过业务、理解一线沟通，也能把体验优化落回真实使用场景。</p>
+              </div>
+            </div>
+            <div class="ai-console" aria-label="AI 工作流摘要">
+              <div class="console-line"><span>01</span><span>Research synthesis -> 用户画像 / 痛点地图 / 机会点</span></div>
+              <div class="console-line"><span>02</span><span>Prompt system -> 视觉方向 / 页面文案 / 交互状态</span></div>
+              <div class="console-line"><span>03</span><span>Prototype loop -> Figma / HTML / 可验证微动效</span></div>
+            </div>
+          </aside>
+        </div>
+        <div class="container hero-workflow reveal" aria-label="首屏工作方式摘要">
+          <div class="workflow-label">
+            <span>Workflow</span>
+            <strong>How I build</strong>
+          </div>
+          <div class="workflow-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M21 15a4 4 0 0 1-4 4H7l-4 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z"></path>
+            </svg>
+            <div>
+              <strong>需求澄清</strong>
+              <p>先拆目标、角色、路径和限制，避免只做漂亮界面。</p>
+            </div>
+          </div>
+          <div class="workflow-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M3 7h18"></path>
+              <path d="M3 12h18"></path>
+              <path d="M3 17h18"></path>
+            </svg>
+            <div>
+              <strong>信息架构</strong>
+              <p>把复杂内容整理成可扫读、可操作、可扩展的结构。</p>
+            </div>
+          </div>
+          <div class="workflow-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2 2 7l10 5 10-5Z"></path>
+              <path d="m2 17 10 5 10-5"></path>
+              <path d="m2 12 10 5 10-5"></path>
+            </svg>
+            <div>
+              <strong>视觉系统</strong>
+              <p>用版式、色彩、组件和动效形成统一而清晰的体验。</p>
+            </div>
+          </div>
+          <div class="workflow-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m16 18 6-6-6-6"></path>
+              <path d="m8 6-6 6 6 6"></path>
+            </svg>
+            <div>
+              <strong>原型验证</strong>
+              <p>结合 Figma、HTML 和 AI 工作流，让方案更接近真实使用。</p>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-cue" aria-hidden="true">Scroll</div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="eyebrow">Selected Work</p>
+              <h2>作品展示</h2>
+            </div>
+          </div>
+
+          <div class="project-tools reveal" role="list" aria-label="作品筛选">
+            <button class="filter-btn active" type="button" data-filter="all">全部</button>
+            <button class="filter-btn" type="button" data-filter="web">Web</button>
+            <button class="filter-btn" type="button" data-filter="app">App</button>
+            <button class="filter-btn" type="button" data-filter="hmi">HMI</button>
+            <button class="filter-btn" type="button" data-filter="visual">平面 / AI</button>
+          </div>
+
+          <div class="project-grid">
+            <article
+              class="project-card reveal"
+              tabindex="0"
+              role="button"
+              aria-label="查看点餐小程序设计完整作品"
+              data-category="app"
+              data-title="点餐小程序设计"
+              data-role="移动端 UI / 小程序体验 / 组件库"
+              data-goal="为百茶百道集团线下门店搭建更高效、清晰的点餐与运营体验。"
+              data-result="完成小程序核心页面、点餐路径、视觉风格与组件化沉淀。"
+              data-case-id="order-miniapp"
+              data-detail="portfolio-assets/detail-order-miniapp.png"
+            >
+              <div class="project-visual real-cover">
+                <img class="project-cover-img" src="portfolio-assets/project-order-miniapp.png?v=thumb-hd-0527" alt="点餐小程序设计作品封面" loading="lazy" />
+              </div>
+              <div class="project-body">
+                <div class="project-title-row">
+                  <h3>点餐小程序设计</h3>
+                  <span class="project-index">01</span>
+                </div>
+                <p>围绕奶茶点餐场景，梳理用户浏览、下单、支付与组件复用体验。</p>
+                <div class="project-meta">
+                  <span class="tag">APP</span>
+                  <span class="tag">小程序</span>
+                  <span class="tag">UI</span>
+                  <span class="tag">组件库</span>
+                </div>
+                <span class="project-open">
+                  查看完整作品
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M15 3h6v6"></path>
+                    <path d="m10 14 11-11"></path>
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  </svg>
+                </span>
+              </div>
+            </article>
+
+            <article
+              class="project-card reveal"
+              tabindex="0"
+              role="button"
+              aria-label="查看B端中后台UI设计完整作品"
+              data-category="web"
+              data-title="B端中后台UI设计"
+              data-role="UI/UX / Web 后台 / 3D 视觉 / 组件库"
+              data-goal="为 B 端后台建立清晰的信息层级、视觉识别和可复用组件语言。"
+              data-result="输出后台页面视觉体系、3D 风格资产和组件化表达。"
+              data-case-id="backend-ui"
+              data-detail="portfolio-assets/detail-backend-ui.png"
+            >
+              <div class="project-visual real-cover">
+                <img class="project-cover-img" src="portfolio-assets/project-backend-ui.png?v=thumb-hd-0527" alt="B端中后台UI设计作品封面" loading="lazy" />
+              </div>
+              <div class="project-body">
+                <div class="project-title-row">
+                  <h3>B端中后台UI设计</h3>
+                  <span class="project-index">02</span>
+                </div>
+                <p>用更清爽的布局、图形化表达和组件沉淀，提升后台产品专业度。</p>
+                <div class="project-meta">
+                  <span class="tag">UI/UX</span>
+                  <span class="tag">WEB</span>
+                  <span class="tag">3D</span>
+                  <span class="tag">组件库</span>
+                </div>
+                <span class="project-open">
+                  查看完整作品
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M15 3h6v6"></path>
+                    <path d="m10 14 11-11"></path>
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  </svg>
+                </span>
+              </div>
+            </article>
+
+            <article
+              class="project-card reveal"
+              tabindex="0"
+              role="button"
+              aria-label="查看HMI设计完整作品"
+              data-category="hmi"
+              data-title="HMI设计"
+              data-role="HMI / UX / 概念设计"
+              data-goal="探索车载座舱中视觉 DNA、材质纹理与驾驶信息的表达关系。"
+              data-result="沉淀 HMI 概念视觉、纹理语言与座舱界面方向。"
+              data-case-id="hmi-design"
+              data-detail="portfolio-assets/detail-hmi-design.png"
+            >
+              <div class="project-visual real-cover">
+                <img class="project-cover-img" src="portfolio-assets/project-hmi-design.png?v=thumb-hd-0527" alt="HMI设计作品封面" loading="lazy" />
+              </div>
+              <div class="project-body">
+                <div class="project-title-row">
+                  <h3>HMI设计</h3>
+                  <span class="project-index">03</span>
+                </div>
+                <p>以黑白材质和空间秩序为线索，建立更具质感的车机视觉方向。</p>
+                <div class="project-meta">
+                  <span class="tag">HMI</span>
+                  <span class="tag">UX</span>
+                  <span class="tag">概念设计</span>
+                </div>
+                <span class="project-open">
+                  查看完整作品
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M15 3h6v6"></path>
+                    <path d="m10 14 11-11"></path>
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  </svg>
+                </span>
+              </div>
+            </article>
+
+            <article
+              class="project-card reveal"
+              tabindex="0"
+              role="button"
+              aria-label="查看平面作品完整作品"
+              data-category="visual"
+              data-title="平面作品"
+              data-role="Illustration / Graphic Design / 运营视觉"
+              data-goal="用插画、海报和运营物料建立更直接的传播记忆点。"
+              data-result="输出多组活动视觉、课程海报、产品推介和插画式平面资产。"
+              data-case-id="graphic-design"
+              data-detail="portfolio-assets/detail-graphic-design.png"
+            >
+              <div class="project-visual real-cover">
+                <img class="project-cover-img" src="portfolio-assets/project-graphic-design.png?v=thumb-hd-0527" alt="平面作品封面" loading="lazy" />
+              </div>
+              <div class="project-body">
+                <div class="project-title-row">
+                  <h3>平面作品</h3>
+                  <span class="project-index">04</span>
+                </div>
+                <p>从活动海报到图形插画，展示视觉构成、配色和信息传达能力。</p>
+                <div class="project-meta">
+                  <span class="tag">Illustration</span>
+                  <span class="tag">Graphic Design</span>
+                </div>
+                <span class="project-open">
+                  查看完整作品
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M15 3h6v6"></path>
+                    <path d="m10 14 11-11"></path>
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  </svg>
+                </span>
+              </div>
+            </article>
+
+            <article
+              class="project-card reveal"
+              tabindex="0"
+              role="button"
+              aria-label="查看数字孪生项目完整作品"
+              data-category="web visual"
+              data-title="数字孪生项目"
+              data-role="数字大屏 / UI 设计规范 / PS 视觉"
+              data-goal="为数字孪生大屏建立清晰的内容结构、视觉规范和展示层级。"
+              data-result="完成大屏目录、模块拆解和黑金科技风视觉规范设计。"
+              data-case-id="digital-twin"
+              data-detail="portfolio-assets/detail-digital-twin.png"
+            >
+              <div class="project-visual real-cover">
+                <img class="project-cover-img" src="portfolio-assets/project-digital-twin.png?v=thumb-hd-0527" alt="数字孪生项目作品封面" loading="lazy" />
+              </div>
+              <div class="project-body">
+                <div class="project-title-row">
+                  <h3>数字孪生项目</h3>
+                  <span class="project-index">05</span>
+                </div>
+                <p>围绕数字大屏的模块化展示，强化科技感、结构感和视觉规范。</p>
+                <div class="project-meta">
+                  <span class="tag">PS</span>
+                  <span class="tag">规范设计</span>
+                </div>
+                <span class="project-open">
+                  查看完整作品
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M15 3h6v6"></path>
+                    <path d="m10 14 11-11"></path>
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  </svg>
+                </span>
+              </div>
+            </article>
+
+            <article
+              class="project-card reveal"
+              tabindex="0"
+              role="button"
+              aria-label="查看概念提案完整作品"
+              data-category="hmi visual"
+              data-title="概念提案"
+              data-role="HMI / 概念设计 / 3D"
+              data-goal="把车载体验方向包装成完整、可展示、可讨论的概念方案。"
+              data-result="输出多屏 HMI 概念界面、状态演示和视觉氛围提案。"
+              data-case-id="concept-proposal"
+              data-detail="portfolio-assets/detail-concept-proposal.png"
+            >
+              <div class="project-visual real-cover">
+                <img class="project-cover-img" src="portfolio-assets/project-concept-proposal.png?v=thumb-hd-0527" alt="HMI概念提案作品封面" loading="lazy" />
+              </div>
+              <div class="project-body">
+                <div class="project-title-row">
+                  <h3>概念提案</h3>
+                  <span class="project-index">06</span>
+                </div>
+                <p>将氛围、界面、状态和故事线组织成更完整的 HMI 概念表达。</p>
+                <div class="project-meta">
+                  <span class="tag">HMI</span>
+                  <span class="tag">概念提案</span>
+                  <span class="tag">3D</span>
+                </div>
+                <span class="project-open">
+                  查看完整作品
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M15 3h6v6"></path>
+                    <path d="m10 14 11-11"></path>
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  </svg>
+                </span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="eyebrow">About Me</p>
+              <h2>个人信息展示</h2>
+            </div>
+          </div>
+
+          <div class="about-grid">
+            <aside class="profile-card reveal">
+              <div class="profile-photo">
+                <strong>Designed by Xuziwen</strong>
+              </div>
+              <div class="info-list" aria-label="个人基础信息">
+                <div class="info-row"><span>姓名</span><span>徐梓文</span></div>
+                <div class="info-row"><span>定位</span><span>UI/UX 设计师</span></div>
+                <div class="info-row"><span>方向</span><span>Web / App / HMI / AI</span></div>
+                <div class="info-row"><span>邮箱</span><span>ziwen0120@yeah.net</span></div>
+                <div class="info-row"><span>电话</span><span>13777835072</span></div>
+              </div>
+            </aside>
+
+            <div class="principles">
+              <article class="principle-card reveal">
+                <div class="principle-visual">
+                  <img src="portfolio-assets/principle-business.png?v=image2" alt="业务路径与目标梳理插图" loading="lazy" />
+                </div>
+                <div class="principle-content">
+                  <div class="icon-wrap">
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M3 3v18h18"></path>
+                      <path d="m19 9-5 5-4-4-4 4"></path>
+                    </svg>
+                  </div>
+                  <h3>业务先行</h3>
+                  <p>先搞清楚角色、目标、路径和约束，再决定视觉表达，避免漂亮但无法落地。</p>
+                </div>
+              </article>
+              <article class="principle-card reveal">
+                <div class="principle-visual">
+                  <img src="portfolio-assets/principle-expression.png?v=image2" alt="视觉记忆点与排版节奏插图" loading="lazy" />
+                </div>
+                <div class="principle-content">
+                  <div class="icon-wrap">
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M12 20h9"></path>
+                      <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"></path>
+                    </svg>
+                  </div>
+                  <h3>表达有记忆点</h3>
+                  <p>用排版、节奏、局部色彩和动效建立个性，但不牺牲阅读效率与专业感。</p>
+                </div>
+              </article>
+              <article class="principle-card reveal">
+                <div class="principle-visual">
+                  <img src="portfolio-assets/principle-system.png?v=image2" alt="组件规范与交付沉淀插图" loading="lazy" />
+                </div>
+                <div class="principle-content">
+                  <div class="icon-wrap">
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M4 7h16"></path>
+                      <path d="M4 12h16"></path>
+                      <path d="M4 17h10"></path>
+                    </svg>
+                  </div>
+                  <h3>系统化沉淀</h3>
+                  <p>把页面经验沉淀成组件、规范、状态和交付文档，让后续迭代更稳。</p>
+                </div>
+              </article>
+              <article class="principle-card reveal">
+                <div class="principle-visual">
+                  <img src="portfolio-assets/principle-ai.png?v=image2" alt="AI 协作节点与设计判断插图" loading="lazy" />
+                </div>
+                <div class="principle-content">
+                  <div class="icon-wrap">
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M12 2v4"></path>
+                      <path d="M12 18v4"></path>
+                      <path d="m4.93 4.93 2.83 2.83"></path>
+                      <path d="m16.24 16.24 2.83 2.83"></path>
+                      <path d="M2 12h4"></path>
+                      <path d="M18 12h4"></path>
+                      <path d="m4.93 19.07 2.83-2.83"></path>
+                      <path d="m16.24 7.76 2.83-2.83"></path>
+                    </svg>
+                  </div>
+                  <h3>AI 协同</h3>
+                  <p>把 AI 当成增强器，而不是替代者：提升探索速度，最终仍由设计判断把关。</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="ai" class="section dark">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="eyebrow">AI Capability</p>
+              <h2>AI 能力展示</h2>
+            </div>
+            <p class="lead">
+              AI 能力不只是会出图，而是能把调研、策略、文案、视觉和原型串成可复用流程。
+            </p>
+          </div>
+
+          <div class="ai-layout">
+            <div class="ability-grid">
+              <article class="ability-card reveal">
+                <div class="icon-wrap">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M21 15a4 4 0 0 1-4 4H7l-4 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z"></path>
+                  </svg>
+                </div>
+                <h3>用产品判断约束 AI 方向</h3>
+                <p>
+                  通过分析产品需求，我先把约会资料页拆成认识、判断、信任、行动四个体验任务。头像大图负责第一印象，认证和资料卡降低顾虑，Say Hi 与聊天承接下一步互动。
+                </p>
+                <div class="ability-meta">
+                  <span class="ability-step">01</span>
+                  <div class="ability-tags">
+                    <span>产品理解</span>
+                    <span>体验策略</span>
+                  </div>
+                </div>
+              </article>
+              <article class="ability-card reveal">
+                <div class="icon-wrap">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2 2 7l10 5 10-5Z"></path>
+                    <path d="m2 17 10 5 10-5"></path>
+                    <path d="m2 12 10 5 10-5"></path>
+                  </svg>
+                </div>
+                <h3>用 Skill 链路快速落地</h3>
+                <p>
+                  将 UI/UX、动效、Icon 和代码实现类 Skill 串成工作流：先定层级、状态和视觉基调，再用 AI 生成 HTML/CSS/JS，并持续修正视觉效果如字体、图标、动效和响应式细节。
+                </p>
+                <div class="ability-meta">
+                  <span class="ability-step">02</span>
+                  <div class="ability-tags">
+                    <span>Skill 工作流</span>
+                    <span>HTML/CSS/JS</span>
+                  </div>
+                </div>
+              </article>
+              <article class="ability-card reveal">
+                <div class="icon-wrap">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="m16 18 6-6-6-6"></path>
+                    <path d="m8 6-6 6 6 6"></path>
+                  </svg>
+                </div>
+                <h3>把静态想法做成可体验流程</h3>
+                <p>
+                  右侧不是静态效果图，而是可操作原型：推荐刷新、More details 展开、Like 状态、Say Hi、评论/聊天入口和底部导航都能响应，用来快速验证路径是否顺手。
+                </p>
+                <div class="ability-meta">
+                  <span class="ability-step">03</span>
+                  <div class="ability-tags">
+                    <span>可交互</span>
+                    <span>微动效</span>
+                  </div>
+                </div>
+              </article>
+              <article class="ability-card reveal">
+                <div class="icon-wrap">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 3v18"></path>
+                    <path d="M3 12h18"></path>
+                    <path d="m5 5 14 14"></path>
+                    <path d="m19 5-14 14"></path>
+                  </svg>
+                </div>
+                <h3>沉淀成可复用交付资产</h3>
+                <p>
+                  最终把页面、图片、嵌入模式和交互脚本收进独立文件夹，形成可直接打开、嵌入作品集、继续迭代的原型包，让 AI 产出变成可交付资产。
+                </p>
+                <div class="ability-meta">
+                  <span class="ability-step">04</span>
+                  <div class="ability-tags">
+                    <span>原型包</span>
+                    <span>可复用</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <aside class="prompt-lab reveal" aria-label="AI 能力交互演示">
+              <div class="prompt-lab-header">
+                <strong>Prompt Lab</strong>
+                <span class="pill">Interactive</span>
+              </div>
+              <p class="prototype-note">
+                本样本只制作了推荐页到打招呼这一个路径，更多内容敬请期待。
+              </p>
+              <div class="prototype-window" aria-label="纯 AI 项目预览窗口">
+                <div class="prototype-frame-wrap">
+                  <iframe
+                    class="prototype-frame"
+                    title="Dating Profile Prototype"
+                    src="portfolio-assets/dating-profile-prototype-package/index.html?embed=1&v=rounded-0528c"
+                    loading="lazy"
+                  ></iframe>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="container experience">
+          <aside class="experience-aside reveal">
+            <p class="eyebrow">Experience</p>
+            <span class="big-number" aria-label="5年+">
+              <strong>5</strong>
+              <small>年+</small>
+            </span>
+            <p class="lead">
+              从视觉执行到复杂产品体验，从单页面到系统化后台，我更擅长在真实业务约束里把设计推进下去。
+            </p>
+          </aside>
+
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-year">2024.5<br />Now</div>
+              <div>
+                <h3>四川易家讯科</h3>
+                <div class="timeline-meta" aria-label="公司、部门、岗位与工作时间">
+                  <span>产品部</span>
+                  <span>UI设计师</span>
+                  <span>2024.5 - 至今</span>
+                </div>
+                <p>负责公司 ToG & ToB 管理端项目全流程设计工作，深度参与政府及大型企业数字化转型相关项目，全面承接平台界面、管理后台、数据可视化、业务系统等核心设计需求。</p>
+                <div class="timeline-highlight">
+                  主导管理端设计规范体系搭建与组件库 0-1 建设，推动设计资产标准化、模块化复用，保障多项目视觉统一与交付效率。严格把控设计量产审核，确保界面符合政务及企业平台的严谨性、易用性与安全性要求。
+                </div>
+                <div class="timeline-detail">
+                  精准理解政企客户业务逻辑与使用场景，输出高适配、高体验的管理端解决方案；熟练使用 PS、Figma、Sketch、Blender 等设计软件，并结合 Figma Make、Clouding Coding、即梦、豆包等 AI 工具辅助探索、效率提升与创意落地。
+                </div>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-year">2023.8<br />2024.5</div>
+              <div>
+                <h3>四川见山科技</h3>
+                <div class="timeline-meta" aria-label="公司、部门、岗位与工作时间">
+                  <span>UI设计部</span>
+                  <span>UI设计师</span>
+                  <span>2023.8 - 2024.5</span>
+                </div>
+                <p>统筹管理 5 人数字大屏 UI 设计团队，进行团队工作赋能，拆解团队工作目标，生成工作路径与落地方案，建立奖惩机制，制定并实施员工技能培训、心理建设，提升员工综合素质。</p>
+                <div class="timeline-highlight">
+                  任职期间主要负责地产以及政府数字大屏 UI 设计工作，参与评审会共同讨论交互逻辑，提供界面设计创意方案。
+                </div>
+                <div class="timeline-detail">
+                  主导规范整理，梳理业务逻辑，针对公司核心需要、团队核心问题，0-1 建立 UI 设计规范生产方案，推动优化方案落实，提高工作能效，持续跟进以及内容把控，审核内容质量，对风险敞口进行规避防范。
+                </div>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-year">2021.5<br />2023.5</div>
+              <div>
+                <h3>中科创达</h3>
+                <div class="timeline-meta" aria-label="公司、部门、岗位与工作时间">
+                  <span>智能汽车HMI设计部</span>
+                  <span>设计组长</span>
+                  <span>2021.5 - 2023.5</span>
+                </div>
+                <p>统筹管理 10-15 人视觉量产设计团队，进行团队工作赋能，拆解团队工作目标，生成工作路径与落地方案，建立奖惩机制，保证团队目标达成；制定并实施员工技能培训、心理建设，提升员工综合素质。</p>
+                <div class="timeline-highlight">
+                  主导视觉规范整理，梳理业务逻辑，建立问题反馈机制，编写 SOP，提高工作能效；完成视觉 UI 设计组件库搭建，统一视觉结果输出效果，提升设计师工作效率。
+                </div>
+                <div class="timeline-detail">
+                  开展视觉概念量产审核，根据各项目需求计划，把控内容与风格，确保视觉内容质量；组织新人量产项目培训，编写培训计划、培训课件与培训效果考核指标，累计完成多场培训。
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section dark">
+        <div class="container contact-panel">
+          <div class="contact-main reveal">
+            <p class="eyebrow">Contact</p>
+            <h2 class="contact-heading" aria-label="Let's build something useful.">
+              <span class="contact-heading-line"><span>Let's build</span></span>
+              <span class="contact-heading-line"><span>something</span></span>
+              <span class="contact-heading-line"><span>useful.</span></span>
+            </h2>
+            <p class="lead">
+              如果你需要一位能理解业务、能做视觉、能落地交互、也能拥抱 AI 工作流的 UI/UX 设计师，我们可以聊聊。
+            </p>
+            <div class="contact-actions">
+              <button class="btn" type="button" data-copy="ziwen0120@yeah.net">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 4h16v16H4z"></path>
+                  <path d="m22 6-10 7L2 6"></path>
+                </svg>
+                复制邮箱
+              </button>
+              <button class="btn secondary" type="button" data-copy="13777835072">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07A19.5 19.5 0 0 1 5.15 12.8 19.8 19.8 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.12.9.33 1.77.62 2.6a2 2 0 0 1-.45 2.11L8 9.67a16 16 0 0 0 6.33 6.33l1.24-1.23a2 2 0 0 1 2.11-.45c.83.29 1.7.5 2.6.62A2 2 0 0 1 22 16.92Z"></path>
+                </svg>
+                复制电话
+              </button>
+            </div>
+          </div>
+
+          <aside class="contact-card reveal">
+            <div class="contact-art" aria-hidden="true">
+              <img src="portfolio-assets/contact-illustration.png" alt="" loading="lazy" />
+            </div>
+            <div class="contact-line">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>中国 / 可远程协作</span>
+            </div>
+            <div class="contact-line">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+              </svg>
+              <span>ziwen0120@yeah.net</span>
+            </div>
+            <div class="contact-line">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"></path>
+              </svg>
+              <span>13777835072</span>
+            </div>
+            <div class="wechat-card">
+              <button class="wechat-qr" type="button" id="openWechatQr" aria-label="放大查看微信二维码">
+                <img src="portfolio-assets/wechat-qr.png?v=clear" alt="徐梓文微信二维码" loading="lazy" />
+              </button>
+              <div class="wechat-meta">
+                <strong>微信联系</strong>
+                <span>如果你觉得我的作品和岗位方向匹配，欢迎加我微信。我会更完整地介绍项目思路，也方便继续沟通面试安排。</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <section class="case-view" id="caseView" role="dialog" aria-modal="true" aria-labelledby="caseTitle" aria-hidden="true">
+      <div class="case-shell">
+        <div class="case-sticky">
+          <div class="case-toolbar">
+            <div class="case-kicker">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m22 11-1.296-1.296a2.4 2.4 0 0 0-3.408 0L11 16"></path>
+                <path d="M4 8a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2"></path>
+                <circle cx="13" cy="7" r="1"></circle>
+                <rect width="14" height="14" x="8" y="2" rx="2"></rect>
+              </svg>
+              <span>Full Case Study</span>
+              <strong class="case-title-small" id="caseTitleSmall">作品详情</strong>
+            </div>
+            <button class="case-back" type="button" id="caseBack">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m12 19-7-7 7-7"></path>
+                <path d="M19 12H5"></path>
+              </svg>
+              返回作品
+            </button>
+          </div>
+        </div>
+        <header class="case-hero">
+          <div>
+            <p class="eyebrow">Portfolio Detail</p>
+            <h2 id="caseTitle">作品详情</h2>
+            <p id="caseGoal">完整作品长图来自本地作品集原图。</p>
+          </div>
+          <div class="case-meta-list" aria-label="项目摘要">
+            <div class="case-meta-item">
+              <span>Role</span>
+              <strong id="caseRole"></strong>
+            </div>
+            <div class="case-meta-item">
+              <span>Result</span>
+              <strong id="caseResult"></strong>
+            </div>
+          </div>
+        </header>
+        <div class="case-image-frame">
+          <div class="case-loading">正在载入完整作品...</div>
+          <img class="case-detail-image" id="caseImage" alt="" decoding="async" />
+        </div>
+      </div>
+    </section>
+
+    <div class="qr-lightbox" id="qrLightbox" role="dialog" aria-modal="true" aria-labelledby="qrLightboxTitle" aria-hidden="true">
+      <div class="qr-lightbox-card">
+        <img src="portfolio-assets/wechat-qr.png?v=clear" alt="徐梓文微信二维码大图" loading="lazy" />
+        <div class="qr-lightbox-meta">
+          <div>
+            <strong id="qrLightboxTitle">微信联系</strong>
+            <span>扫码添加微信，进一步沟通项目、面试或合作。</span>
+          </div>
+          <button class="qr-close" type="button" id="closeWechatQr" aria-label="关闭微信二维码大图">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M18 6 6 18"></path>
+              <path d="m6 6 12 12"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite">已复制</div>
+    <script src="assets/js/app.js?v=20260601-nav-cta"></script>
+  </body>
+</html>
+
+
