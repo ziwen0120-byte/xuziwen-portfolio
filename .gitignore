@@ -1,0 +1,5 @@
+node_modules/
+.vite/
+*.log
+cinematic-portfolio/dist/
+cinematic-portfolio/__screenshots/
