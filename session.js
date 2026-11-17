@@ -3,7 +3,7 @@
   if (!worker) return;
   function lock() { worker.postMessage({ kind: "lock" }); }
   function attach() {
-    const footer = document.querySelector(".editorial-footer > div, .career-contact > div");
+    const footer = document.querySelector(".editorial-footer > div, .career-contact > div, .dc-page-footer");
     if (!footer || document.querySelector("[data-lock-portfolio]")) return;
     const button = document.createElement("button");
     button.type = "button"; button.textContent = "退出访问"; button.dataset.lockPortfolio = "";

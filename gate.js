@@ -8,6 +8,14 @@
     if (!candidate.hash && location.hash) candidate.hash = location.hash;
     return candidate.href;
   }
+  function openDestination() {
+    const target = new URL(destination());
+    // A hash-only replacement is a same-document navigation; reload to fetch decrypted HTML.
+    if (target.pathname === location.pathname && target.search === location.search) {
+      if (target.hash !== location.hash) history.replaceState(null, "", target.href);
+      location.reload();
+    } else location.replace(target.href);
+  }
   function message(worker, data) {
     return new Promise((resolve, reject) => {
       const channel = new MessageChannel();
@@ -28,7 +36,7 @@
       if (worker) {
         const state = await message(worker, { kind: "status" });
         if (state.version === config.version) {
-          if (state.unlocked) { location.replace(destination()); return; }
+          if (state.unlocked) { openDestination(); return; }
           break;
         }
       }
@@ -49,7 +57,7 @@
       await PortfolioCore.decrypt(encrypted, key, "manifest:" + config.version);
       const reply = await message(worker, { kind: "unlock", version: config.version, key });
       if (!reply.ok || !reply.unlocked) throw new Error("Unlock failed");
-      input.value = ""; status.textContent = "验证成功，正在打开…"; location.replace(destination());
+      input.value = ""; status.textContent = "验证成功，正在打开…"; openDestination();
     } catch {
       status.textContent = "密码不正确，或访问文件暂时无法加载。请重试。"; button.disabled = false; input.focus();
     }
