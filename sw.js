@@ -1,6 +1,6 @@
 /* CONFIG is supplied by the private build, and contains no password or key. */
 importScripts("./core.js");
-const CONFIG = {"format":1,"version":"c750b095b8acbc901df886c0","iterations":600000,"salt":"0uw0ZMfX0Q3Q/1VVfpzFsJMb/UkKVXN28nQpytX3BdM=","manifest":"vault/59ead5b39f6e96c5979d7d359050a7e1.bin","chunkSize":1048576,"scope":"/xuziwen-portfolio/","sessionTtlMs":7200000};
+const CONFIG = {"format":1,"version":"7859b2622b1a5f29a7d55e86","iterations":600000,"salt":"kagRBA3nMlOqhqagNuKd7kMzRSH18B1UftWyfxXDjcc=","manifest":"vault/fbc6aeaac4f54b2e846450d2a024dad6.bin","chunkSize":1048576,"scope":"/xuziwen-portfolio/","sessionTtlMs":7200000};
 const cache = new Map();
 let session = null, loading;
 function database() {
